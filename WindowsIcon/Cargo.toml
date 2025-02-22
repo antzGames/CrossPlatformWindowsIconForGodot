@@ -1,0 +1,17 @@
+[package]
+name = "WindowsIcon"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]  # Compile this crate to a dynamic C library.
+
+[dependencies]
+godot = "0.2.3"
+editpe = {version = "0.2.1"}
+image = "*" 
+
+[profile.release]
+opt-level = "z" 
+lto = true
+codegen-units = 1

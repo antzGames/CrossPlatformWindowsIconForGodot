@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://br2xf5822h4gc"]
+
+[ext_resource type="Script" path="res://addons/WindowsIcon/windows_icon_test.gd" id="1_3sdvp"]
+
+[node name="WindowsIconGenerator" type="WindowsIconGenerator"]
+icon_path = "D:\\Downloads\\antz_icon.ico"
+script = ExtResource("1_3sdvp")
