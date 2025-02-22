@@ -17,13 +17,15 @@ I will try to contact a contributor and see if they can build this solution into
 - Only the Windows and Linux versions of the GDExtention (the addon) works.
 - You need to specify the FULLY QUALIFIED path to the icon image file and the Windows EXE file that you want to apply a plugin.
 - Its built as a Node, so you need to use the `WindowIconGenerator` Node in a test scene to generate it manually.  A test scene is included in the `addons/WindowsIcon` directory.
+- there is no error checking or exception handling so your paths need to be perfect.
 
 # How to use
 
 1. Open the `windows_icon_test.tscn` scene.
 2. Update the `Icon Path` and `Exe Path` vlaues to the FULLY QUALIFIED path to the icon image file and the Windows EXE file that you want to apply a plugin.
-3. Run THIS scene (make sure of this or else nothing happens).
+3. This test scene just calls `make_icon()` method `on_ready()` and then exits.
+4. Run THIS scene (make sure of this or else nothing happens).
 
 # How to build Rust GDExtention
 
-I use CROSS (https://github.com/cross-rs/cross) to compile and build the Windows and Linix versions.  Installing and configuring CROSS is too big to detail out in this README.
+I use CROSS (https://github.com/cross-rs/cross) to compile and build the Windows and Linux versions.  Installing and configuring CROSS is too big to detail out in this README.
