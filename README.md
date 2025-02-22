@@ -25,4 +25,7 @@ I will try to contact a contributor and see if they can build this solution into
 1. Open the `windows_icon_test.tscn` scene.
 2. Update the `Icon Path` and `Exe Path` vlaues to the FULLY QUALIFIED path to the icon image file and the Windows EXE file that you want to apply a plugin.
 3. Run THIS scene (make sure of this or else nothing happens).
-   
+
+# How to build Rust GDExtention
+
+I use CROSS (https://github.com/cross-rs/cross) to compile and build the Windows and Linix versions.  Installing and configuring CROSS is too big to detail out in this README.
