@@ -1,6 +1,6 @@
 # Cross Platform Windows Icon Generator for Godot
 
-This simple addon allows you to set the icon for your Window EXE file without having to use Wine, or build on a Windows computer.
+This simple addon allows you to set the icon for your Window EXE file without having to use Wine, or build on a Windows computer with `rcedit.exe`.
 
 It uses `editpe`, a Rust project that does the same thing that `rcedit.exe` does on Windows.
 
