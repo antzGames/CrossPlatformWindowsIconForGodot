@@ -8,8 +8,6 @@ It uses `editpe` (https://github.com/Systemcluster/editpe), a Rust project that 
 
 My solution is not ideal.  I created it only to prove that everything works cross platform.  
 
-I will try to contact a contributor and see if they can build this solution into the Windows export target or directly into Godot.
-
 ![image](https://github.com/user-attachments/assets/93fdf31f-053e-4113-94c0-e04d2b463024)
 
 # Limitations
