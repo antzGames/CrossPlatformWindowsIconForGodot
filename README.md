@@ -2,7 +2,7 @@
 
 This simple addon allows you to set the icon for your Window EXE file without having to use Wine, or build on a Windows computer with `rcedit.exe`.
 
-It uses `editpe`, a Rust project that does the same thing that `rcedit.exe` does on Windows.
+It uses `editpe` (https://github.com/Systemcluster/editpe), a Rust project that does the same thing that `rcedit.exe` does on Windows.
 
 But because it uses Rust, I made a Rust based GDExtention to make a simple Node that can now do the same thing `rcedit` does.
 
